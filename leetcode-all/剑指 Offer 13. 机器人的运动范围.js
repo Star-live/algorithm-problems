@@ -14,6 +14,4 @@ var movingCount = function(m, n, k) {
     }
     let visited = new Array(m).fill(0).map(() => new Array(n).fill(0));
     return dfs(0, 0, 0, 0, visited, m, n, k)
-
-
 };
